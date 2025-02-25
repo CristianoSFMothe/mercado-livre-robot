@@ -13,7 +13,7 @@ ${IS_HEADLESS}     False
 Start Browser
     
     New Browser    browser=${BROWSER}    headless=${IS_HEADLESS}
-    New Page       ${BASE_URL}
+    New Page       ${BASE_URL}   
 
 Finish Browser
 

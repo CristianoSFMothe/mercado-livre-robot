@@ -8,8 +8,10 @@ Resource        ../base.resource
 Dado que estou na página inicial
 
     Wait For Elements State    ${home.linkRegistration}           visible
+    Get Text                   ${home.linkRegistration}           
 
 E clico no botão ofertas
     
     Wait For Elements State    ${home.linkOffers}   visible
+    Get Text                   ${home.linkOffers}   
     Click                      ${home.linkOffers} 

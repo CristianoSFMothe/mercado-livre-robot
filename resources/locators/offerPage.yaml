@@ -1,3 +1,8 @@
 offer:
   textOffer: css=h1 >> text=Ofertas do dia
   offerCoupon: css=span >> text=Landing de Ofertas
+  linkPagination: css=span >> text=Siguiente
+  categoryText: css=.list-filter p >> text=Categorias
+  fullDeliveryText: css=span >> text=Em carrinhos de compras
+  fullDeliveryButton: .andes-switch__input
+  menuFlashDeals: css=p >> text=Ofertas relâmpago
