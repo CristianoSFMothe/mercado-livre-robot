@@ -1,0 +1,4 @@
+home:
+  linkRegistration: css=a >> text=Crie a sua conta
+  linkLater: css=span >> text=Mais tarde
+  linkOffers: css=.nav-menu-item a >> text=Ofertas
